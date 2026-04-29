@@ -5,3 +5,11 @@ export interface GenerateRequest {
     resume: string;
     letterType: LetterType;
 }
+
+export interface HistoryItem {
+    id: string;
+    letterType: LetterType;
+    jobDescription: string;
+    output : string;
+    createdAt: Date;
+}
